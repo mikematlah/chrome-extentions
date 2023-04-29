@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width:450px;
+}
+
+
+
+input {
+    width:100%;
+    padding:10px;
+    margin-bottom: .3em;
+    border:1px solid #5f9341;
+    border-radius: 0%;
+}
+
+button {
+    
+    padding:1em 2em;
+    color:white;
+    border:1px solid #5f9341;
+    font-weight: bold;
+    background-color: #5f9341;
+}
+.delete-url{
+    padding:.5em 1em;
+    background-color: white;
+    color:#5f9341;
+    margin:.5em;
+   
+}
+.url-container{
+    
+    padding:.2em;
+    
+}
+
+#delete-btn{
+    background-color: white;
+    color:#5f9341;
+   
+}
+#ul-el{
+    list-style: none;
+    margin-top: 1em;
+    padding-left: 0;
+}
+li{
+    margin:.5em 0;
+}
+li a{
+    color:#5f9341;
+}
