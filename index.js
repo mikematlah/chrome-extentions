@@ -74,3 +74,4 @@ function saveToStorage(data){
 function generateId(){
     return Math.random()
 }
+     
