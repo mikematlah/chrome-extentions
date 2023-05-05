@@ -1,4 +1,4 @@
-
+  
 const saveBtn = document.getElementById('input-btn')
 const inputEl = document.getElementById('input-el')
 const ulEl = document.getElementById('ul-el')
@@ -63,6 +63,7 @@ ulEl.addEventListener("click",function(event){
      
     
     myLeads = newArr.map(el=>el)
+    saveToStorage(newArr)
     render(myLeads)
 
 
@@ -74,4 +75,3 @@ function saveToStorage(data){
 function generateId(){
     return Math.random()
 }
-     
